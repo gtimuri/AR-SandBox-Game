@@ -88,6 +88,20 @@ This project was developed by a team of students. Roles are defined based on the
 | Andrei Salov        | Backend logic, Checkpoints system, Race services (Game Loop) |
 | Thomas Kühn         | Hand detection algorithms, Hole filling, Depth data processing |
 
+## External Assets & Dependencies
+
+**Note:** This project utilizes specific packages from the Unity Asset Store to handle vehicle physics, advanced terrain rendering, and async operations. Some of these assets may not be included in the repository due to licensing restrictions.
+
+| Asset Name | Usage | Link |
+| :--- | :--- | :--- |
+| **Race Car Package** | Base model and physics controller for the vehicle | [Asset Store](https://assetstore.unity.com/packages/3d/vehicles/race-car-package-141690) |
+| **Fantasy Landscape** | Environment assets (Trees, Rocks, Terrain textures) | [Asset Store](https://assetstore.unity.com/packages/3d/environments/fantasy-landscape-103573) |
+| **Procedural Grass & Tessellation** | GPU-accelerated grass rendering and terrain tessellation | [Asset Store](https://assetstore.unity.com/packages/vfx/shaders/procedural-grass-gpu-shader-terrain-tessellation-tools-274414) |
+| **Point Grass Renderer** | Optimized rendering for dense vegetation | [Asset Store](https://assetstore.unity.com/packages/3d/vegetation/point-grass-renderer-207854) |
+| **UniTask** | Efficient allocation-free async/await integration for Unity | [GitHub](https://github.com/Cysharp/UniTask) |
+
+---
+
 # Installation & Requirements
 
 ## Hardware
