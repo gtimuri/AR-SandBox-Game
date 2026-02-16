@@ -34,6 +34,7 @@ Using an **Azure Kinect RGBD camera**, the system captures depth data in real-ti
 * **Depth Data Processing:** Conversion of raw depth maps to undistorted bird's-eye view images using OpenCV.
 * **Hand Detection & Inpainting:** Algorithms automatically identify and remove player hands from the depth map to prevent artifacts in the terrain mesh.
 <img width="604" height="166" alt="Depth data processing" src="https://github.com/user-attachments/assets/b1589fbe-004f-4d8f-890f-cbd597f93e82" />
+
 * **Procedural Mesh Generation:** Custom tessellation solution replacing standard Unity Terrain for high-speed updates.
 <img width="600" height="213" alt="Tree" src="https://github.com/user-attachments/assets/ddd8c45c-d24f-4a7d-a99f-7ff082685fc5" />
 
